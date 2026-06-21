@@ -11,7 +11,13 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ShowEverythingMod.MOD_ID, name = ShowEverythingMod.NAME, version = ShowEverythingMod.VERSION, acceptedMinecraftVersions = "[1.12.2]")
+@Mod(
+        modid = ShowEverythingMod.MOD_ID,
+        name = ShowEverythingMod.NAME,
+        version = ShowEverythingMod.VERSION,
+        acceptedMinecraftVersions = "[1.12.2]",
+        acceptableRemoteVersions = "*"
+)
 public class ShowEverythingMod {
     public static final String MOD_ID = "showeverything";
     public static final String NAME = "Show Everything";

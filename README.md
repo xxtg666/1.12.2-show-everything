@@ -2,7 +2,7 @@
 
 Forge 1.12.2 port of [MinersLab/show-everything](https://github.com/MinersLab/show-everything).
 
-Show items, blocks, fluids, and entities in chat with hover details. The command logic runs on the server, so clients do not need to install this mod.
+Show items, blocks, fluids, and entities in chat with hover details. The command logic runs on the server, and the mod declares remote clients as optional, so vanilla/Forge clients without this mod can still join.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Show items, blocks, fluids, and entities in chat with hover details. The command
 2. Put the jar in the server `mods` folder.
 3. Restart the server.
 
-Client installation is optional and does not add extra features.
+Client installation is optional. The server will not reject clients just because they do not have this mod installed.
 
 ## Commands
 
